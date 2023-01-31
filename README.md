@@ -1,2 +1,0 @@
-# cortaudoetc
-Personal Website
