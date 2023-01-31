@@ -109,6 +109,23 @@ main {
     grid-row: 7/ span 2;
 }
 
+.gallery_item13 {
+    grid-column: 3/ span 2;
+    grid-row: 3/ span 2;
+}
+
+.gallery_item14{
+    grid-column: 7/ span 2;
+    grid-row: 5/ span 2;
+}
+
+.gallery_item13 img, .gallery_item14 img {
+    box-shadow: none;
+    max-width: 120px;
+    max-height: 120px;
+    padding-top: 20px;
+}
+
 p {
     font-size: 1.15rem;
     font-family: prestige-elite-std, monospace;
