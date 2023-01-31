@@ -1,0 +1,121 @@
+body {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.logo img {
+    max-width: 75px;
+    max-height: 75px;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    align-items: left;
+    padding-left: 100px;
+    padding-top: 80px;
+    font-size: 1rem;
+    font-family: soleil, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    flex: 1;
+}
+
+.navbox {
+    position: fixed;
+
+}
+
+.navmenu {
+    padding: 5px;
+}
+
+.navmenu h1 {
+    font-size: 1rem;
+    font-family: soleil, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.dropdown {
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.dropdown a {
+    font-size: 1rem;
+    font-family: prestige-elite-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.herobox2 {
+    align-items: center;
+    padding-right: 100px;
+    flex: 3;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.box1, .box2, .box3, .box4 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.herobox2 img {
+    max-height: 100px;
+    max-width: 100px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+    font-size: 1rem;
+    font-family: prestige-elite-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 1rem;
+    font-family: prestige-elite-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 15px;
+}
+
+p {
+    font-size: .75rem;
+    font-family: prestige-elite-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 15px;
+}

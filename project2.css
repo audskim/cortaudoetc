@@ -1,0 +1,125 @@
+header {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+
+.logo img {
+    max-width: 75px;
+    max-height: 75px;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+main {
+    background-image: url(images/Landing_Page\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 100px;
+    min-height: 300px;
+    display: flex;
+}
+
+.display {
+    flex: 3;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+.gallery_item1 {
+    grid-column: 1/ span 2;
+    grid-row: 3/ span 2;
+}
+
+.gallery_item2 {
+    grid-column: 1/ span 2;
+    grid-row: 5/ span 2;
+}
+
+.gallery_item3 {
+    grid-column: 3/ span 2;
+    grid-row: 3/ span 2;
+}
+
+.gallery_item4 {
+    grid-column: 3/ span 2;
+    grid-row: 5/ span 2;
+}
+
+.gallery_item5 {
+    grid-column: 5/ span 2;
+    grid-row: 3/ span 2;
+}
+
+.gallery_item6 {
+    grid-column: 5/ span 2;
+    grid-row: 5/ span 2;
+}
+
+
+p {
+    font-size: .75rem;
+    font-family: prestige-elite-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2px;
+}
+
+.description {
+    flex: 2;
+    min-height: 300px;
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.list {
+    padding-top: 350px;
+}
+
+li {
+    font-size: .75rem;
+    font-family: prestige-elite-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 5px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: soleil, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 1.15rem;
+    font-family: soleil, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 10px;
+    padding-left: 5px;
+}

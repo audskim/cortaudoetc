@@ -1,0 +1,107 @@
+body {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.logo img {
+    max-width: 75px;
+    max-height: 75px;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    align-items: left;
+    padding-left: 100px;
+    padding-top: 80px;
+    font-size: 1rem;
+    font-family: soleil, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    flex: 1;
+}
+
+.navbox {
+    position: fixed;
+
+}
+
+.navmenu {
+    padding: 5px;
+}
+
+.dropdown {
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.dropdown a {
+    font-size: 1rem;
+    font-family: prestige-elite-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.herobox {
+    align-items: center;
+    padding-top: 50px;
+    padding-right: 150px;
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.herobox img {
+    height: 200px;
+    width: 200px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+@keyframes shake {
+    0% { 
+      transform: rotate(2deg);
+    }
+    50% {
+     transform: rotate(-3deg);
+    }
+    70% {
+      transform: rotate(3deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+.herobox img:hover {
+    animation: shake 600ms;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
